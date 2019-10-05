@@ -15,11 +15,11 @@
    viewBox="0 0 300 200"
    version="1.1"
    id="svg4648"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="PRC flag.svg"
-   inkscape:export-filename="X:\inkscape_ws\ink_start\Flags\PRC flag.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-filename="X:\inkscape_ws\Inkscape\Flags\PRC flag_1200x800.png"
+   inkscape:export-xdpi="384"
+   inkscape:export-ydpi="384">
   <defs
      id="defs4642" />
   <sodipodi:namedview
@@ -30,7 +30,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.9114127"
-     inkscape:cx="69.659119"
+     inkscape:cx="95.118346"
      inkscape:cy="158.42908"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -44,8 +44,8 @@
      inkscape:snap-intersection-paths="false"
      inkscape:object-paths="true"
      inkscape:snap-center="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
@@ -58,14 +58,14 @@
        position="150,100"
        orientation="0,1"
        id="guide4652"
-       inkscape:locked="true"
+       inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
        position="150,100"
        orientation="1,0"
        id="guide4654"
-       inkscape:locked="true"
+       inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
   </sodipodi:namedview>
@@ -77,7 +77,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="580"
+   viewBox="0 0 400 580"
+   version="1.1"
+   id="svg5812"
+   sodipodi:docname="A Vine Design.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs5806" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4413793"
+     inkscape:cx="200"
+     inkscape:cy="290"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5814"
+       spacingx="10"
+       spacingy="10" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5809">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-143.54165)">
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       id="use6759"
+       transform="translate(90,-19.999994)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       transform="translate(90,120.00001)"
+       id="use6761"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       transform="translate(90,260.00001)"
+       id="use6763"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       transform="translate(190,-19.999994)"
+       id="use6765"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       transform="translate(190,120.00001)"
+       id="use6767"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       transform="translate(190,260.00001)"
+       id="use6769"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       transform="translate(290,-19.999994)"
+       id="use6771"
+       style="stroke:none"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       transform="translate(290,120.00001)"
+       id="use6773"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g6757"
+       xlink:href="#g6757"
+       transform="translate(290,260.00001)"
+       id="use6775"
+       width="100%"
+       height="100%" />
+    <g
+       id="g6757"
+       inkscape:tile-cx="100"
+       inkscape:tile-cy="120.00001"
+       inkscape:tile-w="100"
+       inkscape:tile-h="140"
+       inkscape:tile-x0="50"
+       inkscape:tile-y0="50.000006"
+       transform="translate(-90,19.999994)">
+      <rect
+         y="193.54166"
+         x="50"
+         height="140"
+         width="100"
+         id="rect5816"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <image
+         sodipodi:absref="X:\inkscape_ws\Inkscape\Inkscape Guide\Chapter 1. Quick Start\A Box for Cards—An Isometric Projection.png"
+         xlink:href="A Box for Cards—An Isometric Projection.png"
+         width="130"
+         height="130"
+         preserveAspectRatio="none"
+         id="image6811"
+         x="35"
+         y="198.54166" />
+    </g>
+  </g>
+</svg>

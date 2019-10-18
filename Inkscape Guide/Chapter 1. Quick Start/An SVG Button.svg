@@ -15,6 +15,8 @@
    viewBox="0 0 220 80"
    version="1.1"
    id="svg6893"
+   role="button"
+   aria-pressed="false"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="An SVG Button.svg"
    inkscape:export-filename="X:\inkscape_ws\Inkscape\Inkscape Guide\Chapter 1. Quick Start\An SVG Button.png"
@@ -22,6 +24,12 @@
    inkscape:export-ydpi="96">
   <title
      id="title7440">An SVG Button—SVG and the Web</title>
+  <style type="text/css">
+    rect[id="ButtonBase"] { fill: red; }
+    svg[aria-pressed="true"] rect[id="ButtonBase"] { fill: green; }
+    g:hover {cursor: pointer}
+    g:hover rect[id="ButtonGlow"] {opacity: 0; }
+  </style>
   <defs
      id="defs6887">
     <linearGradient
@@ -30,10 +38,13 @@
       <stop
          id="stop7492"
          offset="0"
-         style="stop-color:#000000;stop-opacity:0;" >
-		<animate attributeName="stop-opacity" values="0;0.5;0"
-          dur="2s" repeatCount="indefinite"/>
-	  </stop>
+         style="stop-color:#000000;stop-opacity:0;">
+        <animate
+           attributeName="stop-opacity"
+           values="0;0.5;0"
+           dur="2s"
+           repeatCount="indefinite" />
+      </stop>
       <stop
          id="stop7490"
          offset="1"
@@ -73,6 +84,38 @@
        gradientTransform="matrix(-1.4545455,2.9287888e-8,-1.4643944e-8,-0.72727275,284.54544,80.808078)"
        gradientUnits="userSpaceOnUse" />
   </defs>
+  <script
+     type="text/ecmascript"
+     id="script886">
+	function buttonEvent(event) {
+	  if ((event.type == &quot;click&quot; &amp;&amp; event.button == 0) ||
+		  (event.type == &quot;keydown&quot; &amp;&amp; (event.keyCode == 32 || event.keyCode ==13))
+		  ) {
+		
+		var SVGDocument = event.target.ownerDocument;
+		var SVGRoot     = SVGDocument.documentElement;
+		var ButtonBase  = SVGDocument.getElementById(&quot;ButtonBase&quot;);
+		var Text        = SVGDocument.getElementById(&quot;Text&quot;);
+		var TextShadow  = SVGDocument.getElementById(&quot;TextShadow&quot;);		
+
+		var pressed = false;
+		var fill = &quot;red&quot;;
+		var text = &quot;OFF&quot;;
+
+		if (&quot;false&quot; == SVGRoot.getAttribute(&quot;aria-pressed&quot;)) {
+			pressed = true;
+			fill = &quot;green&quot;;
+			text = &quot;ON&quot;;
+		}
+
+		SVGRoot.setAttribute(&quot;aria-pressed&quot;, pressed);
+		ButtonBase.style.setProperty(&quot;fill&quot;, fill, &quot;&quot;);
+		Text.firstChild.nodeValue = text;
+		TextShadow.firstChild.nodeValue = text;
+		top.status(text);
+	  }
+	}
+  </script>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -80,16 +123,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.4194174"
-     inkscape:cx="91.211273"
-     inkscape:cy="50.139948"
+     inkscape:zoom="5.1090909"
+     inkscape:cx="110"
+     inkscape:cy="40"
      inkscape:document-units="px"
-     inkscape:current-layer="svg6893"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-midpoints="true"
@@ -117,38 +160,57 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <rect
-     style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="ButtonBase"
-     width="220"
-     height="80"
-     x="0"
-     y="0"
-     ry="40"
-     inkscape:label="#rect7442" />
-  <rect
-     inkscape:label="#rect7442"
-     ry="40"
-     y="0"
-     x="0"
-     height="80"
-     width="220"
-     id="ButtonGlow"
-     style="opacity:0.5;fill:url(#radialGradient7496);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     style="opacity:1;fill:url(#linearGradient7486);fill-opacity:1;stroke:none;stroke-width:1.15470052;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 40,5 h 140 c 11.08,0 20,8.92 20,20 0,5 -8.92,5.163636 -20,5.163636 H 40 C 28.92,30.163636 20,30 20,25 20,13.92 28.92,5 40,5 Z"
-     id="ButtonHighlight"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="sssssss" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;-inkscape-font-specification:'Arial, Normal';font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-     x="109.96094"
-     y="54.541016"
-     id="text7506"><tspan
-       sodipodi:role="line"
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     onkeydown="return buttonEvent(evt);"
+     onclick="return buttonEvent(evt);"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ButtonBase"
+       width="220"
+       height="80"
+       x="0"
+       y="0"
+       ry="40"
+       inkscape:label="#rect7442" />
+    <rect
+       inkscape:label="#rect7442"
+       ry="40"
+       y="0"
+       x="0"
+       height="80"
+       width="220"
+       id="ButtonGlow"
+       style="opacity:0.5;fill:url(#radialGradient7496);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="opacity:1;fill:url(#linearGradient7486);fill-opacity:1;stroke:none;stroke-width:1.15470052;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 40,5 h 140 c 11.08,0 20,8.92 20,20 0,5 -8.92,5.163636 -20,5.163636 H 40 C 28.92,30.163636 20,30 20,25 20,13.92 28.92,5 40,5 Z"
+       id="ButtonHighlight"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssss" />
+    <text
+       id="text836"
+       y="55.446106"
+       x="111.09232"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       inkscape:label="#text836"><tspan
+         id="TextShadow"
+         y="55.446106"
+         x="111.09232"
+         sodipodi:role="line">BUTTON</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
        x="109.96094"
        y="54.541016"
-       id="tspan7508">BUTTON</tspan></text>
+       id="text900"
+       inkscape:label="#text7506"><tspan
+         sodipodi:role="line"
+         x="109.96094"
+         y="54.541016"
+         id="Text">BUTTON</tspan></text>
+  </g>
 </svg>

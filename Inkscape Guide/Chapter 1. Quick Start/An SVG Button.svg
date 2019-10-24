@@ -24,11 +24,13 @@
    inkscape:export-ydpi="96">
   <title
      id="title7440">An SVG Button—SVG and the Web</title>
-  <style type="text/css">
-    rect[id="ButtonBase"] { fill: red; }
-    svg[aria-pressed="true"] rect[id="ButtonBase"] { fill: green; }
+  <style
+     type="text/css"
+     id="style5104">
+    rect[id=&quot;ButtonBase&quot;] { fill: red; }
+    svg[aria-pressed=&quot;true&quot;] rect[id=&quot;ButtonBase&quot;] { fill: green; }
     g:hover {cursor: pointer}
-    g:hover rect[id="ButtonGlow"] {opacity: 0; }
+    g:hover rect[id=&quot;ButtonGlow&quot;] {opacity: 0; }
   </style>
   <defs
      id="defs6887">
@@ -123,8 +125,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.1090909"
-     inkscape:cx="110"
+     inkscape:zoom="6.1409091"
+     inkscape:cx="106.25463"
      inkscape:cy="40"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -132,7 +134,7 @@
      units="px"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-midpoints="true"

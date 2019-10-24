@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="text.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6681349"
+     inkscape:cx="396.85039"
+     inkscape:cy="463.98153"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg8"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     style="opacity:0.5;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47232836;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path956"
+     cx="148.13686"
+     cy="176.05452"
+     r="18.920637" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:0.26458332"
+       id="path843"
+       sodipodi:cx="87.512955"
+       sodipodi:cy="135.03108"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="33.701904"
+       sodipodi:argument="-18.218046"
+       sodipodi:t0="0"
+       d="m 87.512955,135.03108 c 1.363868,0.99758 -0.671825,2.33064 -1.658033,2.26684 -2.672562,-0.17288 -3.601203,-3.41771 -2.875644,-5.5829 1.297856,-3.87303 6.047167,-5.03986 9.507774,-3.48445 5.078581,2.28262 6.514204,8.70978 4.093256,13.43264 -3.226743,6.29483 -11.38385,8.00335 -17.357516,4.70206 -7.51725,-4.15432 -9.50005,-14.06328 -5.310867,-21.28238 5.073663,-8.7433 16.745733,-11.00113 25.207258,-5.91968 9.971617,5.98832 12.504937,19.43006 6.528477,29.13213 -6.900055,11.20143 -22.115625,14.01058 -33.056998,7.13729 -12.432285,-7.80987 -15.517491,-24.80208 -7.746089,-36.98187 8.718338,-13.66389 27.48917,-17.02534 40.906737,-8.3549 14.89605,9.62584 18.53388,30.17675 8.9637,44.83161" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot855"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion857"><rect
+           id="rect859"
+           width="81.661293"
+           height="65.21154"
+           x="516.40491"
+           y="391.09299" /></flowRegion><flowPara
+         id="flowPara861" /></flowRoot>    <circle
+       style="opacity:0.5;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865"
+       cx="102.607"
+       cy="125.08289"
+       r="13.424914" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text869"
+       x="2.642487"
+       y="16.943005"><textPath
+         xlink:href="#path865"
+         id="textPath871"
+         style="font-size:3.52777767px">this is a ellipse shape, and it's a circle shape.</textPath></text>
+    <text
+       y="106.09637"
+       x="6.3591475"
+       id="text888"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve">this is a ellipse shape, and it's a circle shape.</text>
+  </g>
+  <flowRoot
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="flowRoot958"
+     transform="translate(-36.797584,-0.31722055)"><flowRegion
+       id="flowRegion960"><use
+         x="0"
+         y="0"
+         xlink:href="#path956"
+         id="use962"
+         width="100%"
+         height="100%"
+         transform="translate(-2.6963742,-12.212991)" /></flowRegion><flowPara
+       style="font-size:3.52777767px"
+       id="flowPara993">this  a flowed text.</flowPara></flowRoot></svg>
